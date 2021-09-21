@@ -10,6 +10,17 @@
     clear: both;
 }
 
+.buttons{
+position: fixed;
+top: 0;
+right: 0;
+z-index: 90;
+cursor: pointer;
+}
+
+.main-conteiner{
+    overflow-y: auto;
+}
 
 .first-conteiner{
     width: 100vw;
@@ -43,29 +54,29 @@ img{
 
 .first-description{ 
     color: yellow;
-    font-size: 7vW;
+    font-size: 6vW;
     height: auto;
     position: absolute;
     top: 65%;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-35%, 0);
 }
 
 .second-description{ 
     color: yellow;
-    font-size: 7vW;
+    font-size: 6vW;
     height: auto;
     position: absolute;
     top: 65%;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-35%, 0);
 }
 .third-description{ 
     color: green;
-    font-size:7vW;
+    font-size:6vW;
     height: auto;
     position: absolute;
     top: 65%;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-35%, 0);
 }
